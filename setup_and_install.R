@@ -22,10 +22,6 @@ renv::install("bioc::clusterProfiler")
 renv::install("bioc::DESeq2")
 renv::install("bioc::edgeR")
 
-renv::install("bioc::biomaRt")
-renv::install("bioc::org.Hs.eg.db")
-renv::install("bioc::Homo.sapiens")
-
 renv::install("bioc::DEGreport")
 renv::install("bioc::EDASeq")
 renv::install("bioc::ComplexHeatmap")
@@ -36,6 +32,10 @@ renv::install("bioc::GenomicAlignments")
 renv::install("bioc::TCGAbiolinks")
 renv::install("bioc::TFBSTools")
 renv::install("bioc::universalmotif")
+
+renv::install("bioc::biomaRt")
+renv::install("bioc::org.Hs.eg.db")
+renv::install("bioc::Homo.sapiens")
 
 renv::install("bioc::KEGGlincs")
 renv::install("bioc::KEGGgraph")
