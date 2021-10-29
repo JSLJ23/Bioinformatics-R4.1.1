@@ -1,6 +1,6 @@
-############
-### CRAN ###
-############
+#####################
+### CRAN packages ###
+#####################
 
 renv::install(c("tidyverse", "nnet", "ggplot2", "pheatmap", "RColorBrewer", "msigdbr", "svglite",
                 "ggrepel", "installr", "pacman", "ggpubr", "rstatix", "devtools", "ggnewscale",
@@ -14,9 +14,10 @@ renv::install('Seurat')
 renv::install('satijalab/seurat-data')
 
 
-####################
-### Bioconductor ###
-####################
+
+#############################
+### Bioconductor packages ###
+#############################
 
 renv::install("bioc::Biobase")
 
